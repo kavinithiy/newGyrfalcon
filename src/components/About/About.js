@@ -1,17 +1,15 @@
 import React from 'react';
-import PropTypes from 'proptypes';
-import { Router , Route, Switch, NavLink } from "react-router-dom";
-import responsive from '../../assets/images/responsive-web-design-ellsworth-wi.jpg'
+import PropTypes from 'prop-types';
 import logo from '../../assets/images/logo.png';
+import responsive from '../../assets/images/responsive-web-design-ellsworth-wi.jpg';
 import fb from '../../assets/images/facebook_32.png';
 import tw from '../../assets/images/twitter_32.png';
 import ln from '../../assets/images/linkedin_32.png';
 import styles from './About.module.scss';
 
-function About() { 
-    return (     
-      <div className={styles.gyrcontainer}>
-      <div className={styles.header}>
+const About = () => (
+  <div className={styles.About}>
+    <div className={styles.header}>
         <div className={styles.gftlogo}></div>
         <div className={styles.logo}>
           <img src={logo}></img>
@@ -82,7 +80,6 @@ function About() {
               <div>Gyrfalcon Technologies is a fast growing IT Industry, provides simple, efficient, costeffective and quality service provider to businesses. The success of the solutions provided has resulted into an exponential growth opportunity for the company. Our data entry accuracy is better than 98.5% and the turnaround time is 10 to 12 hours for standard data entry service... <span className="strong">More</span></div>
           </div>                  
         </div>
-        <div className={styles.clearfix}></div>
         <div className={styles.footer}>
           <div className={styles.cpyrgt}>
             <div className={styles.footercpyrgt}>Copyright © 2012 Gyrfalcon Technologies All Rights Reserved</div>
@@ -90,18 +87,14 @@ function About() {
           </div>
           <div className={styles.sclmedialink}>
              <ul>
-                <li><img src={fb} className={styles.gftsmicons} alt=""/><a href="#home"></a></li>
-                <li><img src={tw} className={styles.gftsmicons} alt=""/><a href="#news"></a></li>
-                <li><img src={ln} className={styles.gftsmicons} alt=""/><a href="#about"></a></li>
+                <li><img src={fb} className={styles.gftsmicons}/><a href=""></a></li>
+                <li><img src={tw} className={styles.gftsmicons}/><a href=""></a></li>
+                <li><img src={ln} className={styles.gftsmicons}/><a href=""></a></li>
               </ul>
           </div>
         </div>
   </div>
-
-  
-    );
-}
-
+);
 
 About.propTypes = {};
 
