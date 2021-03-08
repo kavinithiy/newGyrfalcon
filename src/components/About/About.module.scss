@@ -40,10 +40,10 @@ ul{padding:0; margin:0; float: right; margin-right: 20px; padding: 37px;}
 li{display: inline-block; padding-left: 20px;}
 a{color: #fff; font-size: 18px; text-decoration: none; font-family: Proxima Nova;}
 .gyrcontainer{height: 100%; width: 100%;}
-.header{width: 100%; float: left; height: 100px; background-color: #2a2d30; box-shadow: 0px 10px 38px 0px; }
+.header{width: 100%; float: left; height: 100px; background-color: #2a2d30; box-shadow: 0px 10px 38px 0px; position: fixed; z-index: 999; top: 0;}
 .logo{position: absolute; top: 10px; left: 20px; float: left; height: 60px; width: 250px;}
 .logo img{width: 100%; height: 100%; float: left;}
-.homecontainer{margin-top: 25px; padding: 25px 70px;}
+.homecontainer{margin-top: 100px; padding: 25px 70px; float:left}
 .gfthptitle{font-size: 25px; font-weight: bold; margin-top: 15px; padding: 10px 0; color: #484848; font-family: Proxima Nova;}
 .indend, .glyphiconokcircle, .noindend, .glyphiconchevronleft, .gftmarginTop{font-family: Inter; font-size: 18px; line-height: 1.5}
 .pg-title{font-weight: 600; font-family: Proxima Nova; font-size:18px}
@@ -51,7 +51,7 @@ a{color: #fff; font-size: 18px; text-decoration: none; font-family: Proxima Nova
 .bottom-menu{float: right; width: 65%; margin-right: 110px;}
 .pgname ul{padding: 0; margin-right: 0; padding:0; margin-top: 10px;}
 .pgname ul li{list-style-type: none; line-height: 1.8; width: 100%; padding:0;}
-.pgname ul li a{color: #000;}
+.pgname ul li a{color: #000; font-size: 16px; font-family: Inter;}
 .addrnme{font-weight: 600; font-family: Proxima Nova; font-size:18px}
 .officeaddr{line-height: 1.8; float: left}
 .mainnme{font-weight: bold; color: #a4251c;}
