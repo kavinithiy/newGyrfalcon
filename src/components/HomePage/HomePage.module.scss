@@ -1,0 +1,230 @@
+.clearfix{clear: both; float: none;}
+
+@font-face{
+    font-family: Proxima Nova;
+    src: url(../../assets/fonts/ProximaNova-Regular.otf) format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face{
+    font-family: Proxima Nova;
+    src: url(../../assets/fonts/ProximaNovaBold.otf) format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: Proxima Nova;
+    src: url(../../assets/fonts/ProximaNovaThin.otf) format("opentype");
+    font-weight: normal;
+    font-style: 100;
+}
+@font-face{
+    font-family: Inter;
+    src: url(../../assets/fonts/Inter-Bold-slnt=0.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: Inter;
+    src: url(../../assets/fonts/Inter-Regular-slnt=0.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: Inter;
+    src: url(../../assets/fonts/Inter-ExtraLight-slnt=0.ttf) format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+.gyrcontainer{font-family: Proxima Nova; width: 100%; float:left; display: block; position: relative;}
+.HomePage {color: red}
+.bannerheader{width: 100%; height: 450px;}
+.bannerheader img{width: 100%; height: 100%;}
+.bannermobile{width: 230px; height: 440px; position: absolute; right: 100px; top: 100px;}
+.bannermobile img{width: 100%; height: 100%; box-shadow: 4px 2px 5px 8px #80808040;}
+.logo{position: absolute; top: 10px; left: 20px;}
+.bannertxt{position: absolute; top: 175px; color: #fff; font-size: 35px; left: 190px; width: 500px; text-align: center;}
+.bannerstxt{position: absolute; top: 280px; color: #fff; font-size: 18px; left: 255px; width: 330px; text-align: center;}
+.servicetopic{margin-top: 150px;}
+.zoombx{width: 404px; height: 200px; padding: 30px 35px; box-shadow: 3px 6px 25px 5px #b49c9c; float: left; margin-left: 70px; border-radius: 8px; background-color: #fff; position: absolute; z-index: -1;}
+.zoombx1{width: 404px; height: 200px; padding: 30px 35px; box-shadow: 36px 1px 208px 35px #b49c9c; background-color: #fff; margin-left: 70px; border-radius: 8px; background-color: #fff; position: absolute; z-index: -1;}
+.fstservice{width: 404px; height: 230px; padding: 30px 35px; float: left; margin-left: 70px; border-radius: 8px; background-color: #fff;}
+.shadow1{box-shadow: 3px 6px 25px 5px #b49c9c; padding: 20px 35px; border-radius: 8px;}
+.srvctitle{color: black; font-size: 18px; font-weight: bold;}
+.srvcinfo{font-size: 16px; margin-top: 15px; font-family: 'Inter'; line-height: 1.5;}
+.websession{margin-top: 140px; font-size: 16px; width: 100%; position: relative; float:left; background-image: linear-gradient(to bottom right, #f4eded, #e0d6d6);font-family: Proxima Nova;}
+.sessiontitle{font-weight: bold; font-size: 18px; font-family: Proxima Nova;}
+.more{font-weight: bold; margin-left:10px;}
+.webinfo{margin-top:10px;}
+.Learnmore{font-weight: bold; font-size: 16px; margin-top:15px;}
+.webservice{width: 50%; float: left; margin-top: 100px; margin-left: 70px; position: relative; float:left}
+.webnote{float: right; position: relative;}
+.rect1{width: 210px; height: 182px; background-color: #fff; position: absolute; box-shadow: -6px 0px 11px 0px #c8c0c0; top: 72px; z-index: 999; left: 0px; border-radius: 8px;}
+.rect2{width: 210px; height: 155px; background-color: #fff; position: absolute; box-shadow: -6px 0px 37px 0px #c8c0c0; top: 85px; z-index: 99; left: -26px; border-radius: 8px;}
+.rect3{width: 210px; height: 130px; background-color: #fff; position: absolute; box-shadow: -6px 0px 37px 0px #c8c0c0; top: 97px; z-index:9; left: -48px; border-radius: 8px;}
+.rect4{width: 210px; height: 180px; background-color: #fff; position: absolute; top: 74px; z-index:9; border-radius: 8px 0 0 8px; right:0;}
+.curveImg{width: 100%; position: absolute; top: 265px;}
+.curveImg img{width: 100%;}
+.deviceImg{position: absolute; top: 260px; left: 130px;}
+.appsec{margin-top: 300px; width:100%; position: relative;}
+.apphgt{margin-top: 240px;}
+.rect5{width: 90%; margin: 0 auto; height: 170px; background-image: linear-gradient(#b01909, #eb3311); border-radius: 8px;}
+.rect6{width: 90%; margin: 0 auto; height: 170px; background-image: linear-gradient(#eb3311, #b01909); border-radius: 8px;}
+.startabstct{color: #fff; font-size: 24px; font-weight: bold; text-align: center; padding-top: 20px;}
+.gyrapp{color: #fff; font-weight: bold; font-size: 15px; text-align: center; padding-top: 10px; width: 307px;}
+.gyrapp{width: 340px; margin:0 auto;}
+.appdownload{text-align: center; font-size: 16px; margin-top:10px;}
+.appdownload button{color: #b04841; width: 220px; padding: 5px; border-radius: 15px; border-color: #fff; font-weight: bold; font-size: 17px;}
+.appdownload button:focus-within, .appdownload button:focus{border-color: 1px solid #fff;}
+.serveDetail{position: absolute; top: 90px; width: 100%; height: 200px;}
+.serv1{width: 33.33%; height: 100%; float:left;}
+.serv2{width: 33.33%; height: 100%; float:left;}
+.serv3{width: 33.33%; height: 100%; float:left;}
+.serveInfo{width: 80%; margin: 0 auto; background-color:#fff; border-radius: 8px; height: 100%; box-shadow: 0px 10px 25px 2px #d5d2d2;}
+.endborder{margin:50px 100px; height:2px; background-color: #ad18097a;}
+.servname{font-weight: bold; font-size: 20px; margin-bottom: 10px; font-family: Proxima Nova;}
+.servicesbrief{padding: 20PX;  font-family: Proxima Nova; font-weight: 100}
+.servebrief{font-size: 16px; font-family: Inter; font-weight: 500; line-height: 1.5;}
+.menu{position: absolute; top: 40px; right: 0px; width: 30%;}
+.menu ul{margin:0; padding:0;}
+.menu li{float: left; display: inline-block; padding-left: 35px;}
+.menu a{color:#fff; font-size: 18px; cursor: default; font-family: Proxima Nova; font-weight: 100}
+.iconweb{font-size: 25px; color:#a4251c; padding-bottom: 15px;}
+.pgtitle{font-weight: 600; font-family: Proxima Nova; font-size:18px}
+.pgnme{float: left; width: 180px;}
+.bottommenu{float: right; width: 65%; margin-right: 110px;}
+.bottommenu ul{padding: 0}
+.bottommenu ul li{list-style-type: none; line-height: 1.8; font-weight: 200}
+.addrnme{font-weight: 600; font-family: Proxima Nova; font-size:18px}
+.officeaddr{line-height: 1.8; float: left; font-weight: 200}
+.mainnme{font-weight: bold; color: #a4251c;}
+.fstservice:hover{
+    transform: scale(1.10);
+    transition: all 0.3s ease 0s;
+}
+.firstservice{position: relative; float:left}
+.endborder{margin:50px 100px; height:2px; background-color: #ad18097a;}
+.firstservice{position: relative; float:left}
+.cpyrgt{width: 30%; text-align: center; float: left; margin-bottom: 10px; font-size: 11px; font-family: Inter;}
+.footercpyrgt{padding: 5px 20px;}
+.abtaddr{width: 45%; padding: 0px 0 0 100px; float:left; line-height: 1.6; font-weight: 200}
+.gyrpwrdby{padding: 0px 20px;}
+.footerabtus{font-weight: bold; padding-bottom: 10px;}
+.strong{ font-weight: bold}
+.footer{width: 100%; float:left; border-top: 1px solid #a4251c; margin-top: 20px;}
+.sclmedialink{float: right; margin-right: 50px;}
+.sclmedialink ul li{display: inline; padding-left: 15px;}
+.menu{position: absolute; top: 40px; right: 0px; width: 30%;}
+.menu ul{margin:0; padding:0;
+    li{float: left; display: inline-block; padding-left: 35px;
+        a{color:#fff; font-size: 18px; cursor: default; font-family: Proxima Nova; font-weight: 100}
+    }
+}
+.iconweb{font-size: 25px; color:#a4251c; padding-bottom: 15px;}
+.pgtitle{font-weight: 600; font-family: Proxima Nova; font-size:18px}
+.pgnme{float: left; width: 180px;}
+.bottommenu{float: right; width: 65%; margin-right: 110px;}
+.gfthmmenu {
+    float: right;
+    margin: 25px 60px 0px 0px;
+  }
+  
+  .gfthmmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .gfthmmenu ul li {
+    float: left;
+  }
+  
+  .gfthmmenu ul li a {
+    display: block;
+    width: 90px;
+    text-decoration: none;
+    color: #D0C9C9;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .gfthbmimg {
+    background: url("../../assets/images/hbm.png") no-repeat left;
+    float: right;
+    padding-left: 44px;
+    height: 34px;
+    background-size: 44px 34px;
+    margin: 33px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Proxima Nova;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    width: 210px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px; 
+  }
+  .gfthbmimg{display: none;}
+  .sclmedialink ul{padding: 10px;}
+  .hiddenxs{display: block;}
+  @media (min-width: 320px) and (max-width: 769px){
+    .fstservice{width: 90%; height: 380px; padding: 0px; margin: 25px auto; float: none; }
+    .zoombx1{width: 90%; height: 200px; padding: 0px; margin-left: 15px; position: absolute; z-index: -1; margin-top: 20px;}
+    .iconweb, .srvctitle, .srvcinfo{padding: 15px;}
+    .logo{width: 250px;}
+    .menu{display: none;}
+    .gfthbmimg{display: block;}
+    .gfthmmenu{display: none;}
+    .mt{margin-top: 0;}
+    .tmsupport{width: 100%; height: auto;}
+    .bottommenu{width: 95%; margin: 0 auto;}
+    .abtaddr{width: 100%; padding: 0;}
+    .endborder{margin: 20px 30px; height: 4px;}
+    .sclmedialink{margin-right:0}
+    .sclmedialink ul{margin-right:0; padding: 10px;}
+    .cpyrgt{width: 100%; font-weight: bold;}
+    .hiddenxs{display: none;}
+    .mreinfo{font-size: 14px;}
+    .pgnme{width: 110px;}
+    .pgtitle, .addrnme{font-size: 15px;}
+    .pgnme ul li a, .officeaddr{font-size: 14px;}
+    .bannermobile{width: 125px; height: 250px; position: absolute; right: 20px; top: 235px;}
+    .bannertxt{position: absolute; top: 122px; font-size: 25px; left: 10px; font-family: 'Proxima Nova'; width: 314px;}
+    .bannerstxt{position: absolute; top: 204px; font-size: 16px; left: 10px; font-weight: bold; text-align: left; font-family: Inter;}
+    .gfthbmimg{position: absolute; left: 270px; top: 0; margin: 24px;}
+    .deviceImg{left:0; width: 100%; float:left}
+    .deviceImg img{width: 100%; float: left;}
+    .websession{margin-top: 0;}
+    .webservice{width: 90%; float: left; margin: 0 auto; position: relative; float: none; padding: 15px;}
+    .appsec{margin-top: 150px;}
+    .serv1{width: 100%;}
+    .serveDetail{top: 50px;}
+    .webnote{display: none;}
+  }

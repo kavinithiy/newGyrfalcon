@@ -22,7 +22,16 @@ const Career = () => (
                 <li><a href="">Careers</a></li>
                 <li><a href="">Contact Us</a></li> 
             </ul>
-        </div>           
+        </div> 
+        <div className={styles.gfthbmimg} onClick={openNav}></div>      
+        <div id="mySidenav" className={styles.sidenav}>
+          <a href="javascript:void(0)" className={styles.closebtn} onClick={closeNav}><span className={styles.closebtn}>&times;</span></a>
+          <a href="index.html">Home</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="careers.html">Careers</a>
+          <a href="contact.html">Contact Us</a>
+        </div>          
       </div>
       <div className={styles.clearfix}></div>
       <div className={styles.body}>
@@ -67,7 +76,7 @@ const Career = () => (
                 <li><a>Career</a></li>
                 <li><a>Conatct us</a></li>
               </ul>
-            </div>
+            </div>         
           </div>
           <div className={styles.officeaddr}>
             <div className={styles.addrnme}>Office Address</div>
@@ -95,6 +104,13 @@ const Career = () => (
         </div>
   </div>
 );
+function openNav(){
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 
 Career.propTypes = {};
 

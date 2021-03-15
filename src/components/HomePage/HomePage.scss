@@ -114,3 +114,20 @@
 .footer{width: 100%; float:left; border-top: 1px solid #a4251c; margin-top: 20px;}
 .scl-media-link{float: right; margin-right: 50px;}
 .scl-media-link ul li{display: inline; padding-left: 15px;}
+@media (min-width: 320px) and (max-width: 769px){
+    .gfthbmimg{display: block;}
+    .gfthmmenu{display: none;}
+    .mt{margin-top: 0;}
+    .tmsupport{width: 100%; height: auto;}
+    .bottommenu{width: 95%; margin: 0 auto;}
+    .abtaddr{width: 100%; padding: 0;}
+    .endborder{margin: 20px 30px; height: 4px;}
+    .sclmedialink{margin-right:0}
+    .sclmedialink ul{margin-right:0; padding: 10px;}
+    .cpyrgt{width: 100%; font-weight: bold;}
+    .hiddenxs{display: none;}
+    .mreinfo{font-size: 14px;}
+    .pgnme{width: 110px;}
+    .pgtitle, .addrnme{font-size: 15px;}
+    .pgnme ul li a, .officeaddr{font-size: 14px;}
+}    

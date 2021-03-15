@@ -13,7 +13,6 @@ import trngBx from '../../assets/images/training.png';
 import busnman from '../../assets/images/businesswoman.jpg';
 import city from '../../assets/images/city.jpg';
 import styles from './Services.module.scss';
-
 const Services = () => (
   <div className={styles.Services}>
     <div className={styles.header}>
@@ -30,18 +29,17 @@ const Services = () => (
               <li><a href="">Contact Us</a></li> 
           </ul>
       </div>  
-    <div className={styles.gfthbmimg} onclick="openNav()"></div>
-    <div className={styles.clearfix}></div>
-		<div id="mySidenav" className={styles.sidenav}>
-		  <a href="javascript:void(0)" className={styles.closebtn} onclick="closeNav()"><span className={closebtn}>&times;</span></a>
-		  <a href="">Home</a>
-		  <a href="">About Us</a>
-		  <a href="">Services</a>
-		  <a href="">Careers</a>
-		  <a href="">Contact Us</a>
-		</div>
-    </div>         
+      <div className={styles.gfthbmimg} onClick={openNav}></div>      
+      <div id="mySidenav" className={styles.sidenav}>
+        <a href="javascript:void(0)" className={styles.closebtn} onClick={closeNav}><span className={styles.closebtn}>&times;</span></a>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact Us</a>
+  		</div>
     </div>
+    <div className={styles.clearfix}></div>
     <div className={styles.srvcbnr}>
       <img src={city}/>
       <div className={styles.bnrtxt}>Software development capabilities positions GyrFalcon as your preferred digital conversion partner.</div>
@@ -58,7 +56,7 @@ We provide exhaustive consultation prior to implementation of assignments and kn
       <div className={styles.srvcBanr}>
         <img src={srvcBanr}/>
         <div className={styles.bnrdesc}>
-        Gyrfalcon Technologies was founded with the vision of producing innovative and affordable IT Enabled solutions to enable humanity to explore the opportunities and services we provide. 
+          <div>Gyrfalcon Technologies was founded with the vision of producing innovative and affordable IT Enabled solutions to enable humanity to explore the opportunities and services we provide.</div> 
         </div>
       </div>
       <div className={styles.clearfix}></div>
@@ -77,7 +75,7 @@ We provide exhaustive consultation prior to implementation of assignments and kn
         </div>
         <div className={styles.srvcBoxDetail}>
           <div className={styles.srvcBoxDesc}>
-            <img src={srvcBx}/>
+            <img src={srvcBx} className={styles.srvbx}/>
             <img src={resBx}/>
             <div className={styles.srvcDetails}>
             We create stunning, professional, user-friendly, affordable website that fits your needs.you eliminate the need for multiple codes for separate webpages and sites for different computers, smartphones and tablets.
@@ -150,6 +148,13 @@ We provide exhaustive consultation prior to implementation of assignments and kn
         </div>
   </div>
 );
+function openNav(){
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 
 Services.propTypes = {};
 

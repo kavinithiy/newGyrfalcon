@@ -43,7 +43,19 @@ a{color: #fff; font-size: 18px; text-decoration: none; font-family: Proxima Nova
 .header{width: 100%; float: left; height: 100px; background-color: #2a2d30; box-shadow: 0px 10px 38px 0px; position: fixed; z-index: 999; top: 0;}
 .logo{position: absolute; top: 10px; left: 20px; float: left; height: 60px; width: 250px;}
 .logo img{width: 100%; height: 100%; float: left;}
-.homecontainer{margin-top: 100px; padding: 25px 70px; float:left}
+.colmd12{padding: 25px 70px;}
+.city2bnr{width: 100%; float:left; margin: 20px 0; position: relative;}
+.city2bnr img{width: 100%;}
+.webdesn{position: absolute;
+    bottom: 308px;
+    right: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: red;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Proxima Nova';}
+.homecontainer{margin-top: 100px; float:left; width: 100%;}
 .gfthptitle{font-size: 25px; font-weight: bold; margin-top: 15px; padding: 10px 0; color: #484848; font-family: Proxima Nova;}
 .indend, .glyphiconokcircle, .noindend, .glyphiconchevronleft, .gftmarginTop{font-family: Inter; font-size: 18px; line-height: 1.5}
 .pg-title{font-weight: 600; font-family: Proxima Nova; font-size:18px}
@@ -51,9 +63,18 @@ a{color: #fff; font-size: 18px; text-decoration: none; font-family: Proxima Nova
 .bottom-menu{float: right; width: 65%; margin-right: 110px;}
 .pgname ul{padding: 0; margin-right: 0; padding:0; margin-top: 10px;}
 .pgname ul li{list-style-type: none; line-height: 1.8; width: 100%; padding:0;}
-.pgname ul li a{color: #000; font-size: 16px; font-family: Inter;}
+.pgname ul li a{color: #000; font-size: 16px; font-family: Proxima Nova; font-weight: 200}
 .addrnme{font-weight: 600; font-family: Proxima Nova; font-size:18px}
-.officeaddr{line-height: 1.8; float: left}
+.officeaddr{line-height: 1.8; float: left; font-family: Proxima Nova; font-weight: 200}
+.uniqweb{position: absolute;
+    font-size: 67px;
+    color: #fff;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    top: 190px;
+    margin-left: 61px;
+    width: 50%;
+}
 .mainnme{font-weight: bold; color: #a4251c;}
 .fst-service:hover{
     transform: scale(1.10);
@@ -78,5 +99,106 @@ a{color: #fff; font-size: 18px; text-decoration: none; font-family: Proxima Nova
 }
 .iconweb{font-size: 25px; color:#a4251c; padding-bottom: 15px;}
 .pgtitle{font-weight: 600; font-family: Proxima Nova; font-size:18px}
-.pgnme{float: left; width: 180px;}
+.pgnme{float: left; width: 180px; font-family: Proxima Nova;}
 .bottommenu{float: right; width: 65%; margin-right: 110px;}
+.gfthmmenu {
+    float: right;
+    margin: 25px 60px 0px 0px;
+  }
+  
+  .gfthmmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .gfthmmenu ul li {
+    float: left;
+  }
+  
+  .gfthmmenu ul li a {
+    display: block;
+    width: 90px;
+    text-decoration: none;
+    color: #D0C9C9;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .gfthbmimg {
+    background: url("../../assets/images/hbm.png") no-repeat left;
+    float: right;
+    padding-left: 44px;
+    height: 34px;
+    background-size: 44px 34px;
+    margin: 33px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Proxima Nova;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    width: 210px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px; 
+  }
+  .gfthbmimg{display: none;}
+  .sclmedialink ul{padding: 10px;}
+  .hiddenxs{display: block;}
+  @media (min-width: 320px) and (max-width: 769px){
+    .gfthbmimg{display: block;}
+    .gfthmmenu{display: none;}
+    .mt{margin-top: 0;}
+    .tmsupport{width: 100%; height: auto;}
+    .bottommenu{width: 95%; margin: 0 auto;}
+    .abtaddr{width: 100%; padding: 0;}
+    .endborder{margin: 20px 30px; height: 4px;}
+    .sclmedialink{margin-right:0}
+    .sclmedialink ul{margin-right:0; padding: 10px;}
+    .cpyrgt{width: 100%; font-weight: bold;}
+    .hiddenxs{display: none;}
+    .mreinfo{font-size: 14px;}
+    .pgnme{width: 110px;}
+    .pgtitle, .addrnme{font-size: 15px;}
+    .pgnme ul li a, .officeaddr{font-size: 14px;}
+    .resimg{width: 100%; float:left}
+    .resimg img{width: 100%; float:left}
+    .colmd12{padding: 25px 20px;}
+    .webdesn{bottom: 13px;
+        right: 15px;
+        font-size: 16px;
+        width: 50%;
+        box-shadow: 2px 2px 11px 9px #945454;
+        padding: 10px;}
+        .uniqweb{position: absolute;
+            font-size: 20px;           
+            top: 23px;
+            margin-left: 20px;
+            width: 50%;}
+  }
